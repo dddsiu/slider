@@ -1,0 +1,20 @@
+body {
+  background-color: powderblue;
+}
+p.box {
+  /* look at selectors to see how classes are named*/
+  background-color: palegoldenrod;
+  border: 5px red solid;
+  height: 20px;
+  width: 10%;
+  text-align: center;
+  display: inline-block; /* to display list items horizontally instead of vertically */
+}
+div {
+  white-space: nowrap; /* deals with how whitespace is treated inside element*/
+  overflow-x: hidden; /* specifies what should happen if content overflows an element's box. */
+  display: inline-block;
+}
+button {
+  display: inline-block;
+}
